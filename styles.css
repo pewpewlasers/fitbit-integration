@@ -1,0 +1,224 @@
+/*
+CSS Reset
+----------------------------------------------
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+Core Styles
+----------------------------------------------
+*/
+
+h1, p, span {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	margin-top: 10px;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.wrapper-top {
+	margin: 10px 0 0px;
+	padding: 10px;
+	background-color: #f3f4f6;
+	width: 101.5%;
+	left: -15px;
+	position: relative;
+}
+
+p {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	color: black;
+}
+
+#main-content {
+    min-width: 100%;
+}
+
+.wrapper {
+	position: relative;
+	width: 930px;
+	margin: 162px auto;
+	padding: 0 15px 15px 15px;
+	background-color: #fff;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+	border: solid 1px #eee;
+	border: solid 0px rgba(100,100,100,0);
+}
+
+.centered {
+	text-align: center;
+}
+
+.rank-content {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.rank-content .rank {
+	font-size: 90px;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.rank-content .total-participants {
+	font-size: 33px;
+	color: #AAA;
+}
+
+.rank-content .rank-response {
+	margin:20px 0;
+	font-size: 30px;
+	color: #AAA;
+}
+
+#ranking-graph {
+	margin: 0 auto;
+}
+
+.module {	
+	margin: 60px 1% 8px 1%;
+	padding: 5px;
+	border: 2px solid #EEE;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: rgb(252, 252, 252);
+}
+
+.pure-u-1-2 {
+	width: 48%;
+	height: 156px;
+}
+
+#ranking-graph {
+	/*margin-top: 29px;*/
+}
+
+#class-picker {
+	float: right;
+	border-radius: 3px;
+	margin: 0 12px 0 0;
+}
+
+.class-metrics {
+	text-align: right;
+	width: 75%;
+	margin-top: 10px;
+}
+
+.class-metrics span {
+	display: block;
+	font-size: 25px;
+}
+
+.module .header {
+	font-size: 20px;
+	color: #AAA;
+}
+
+.pure-u-1-3 .label {
+	display: block;
+	text-align: center;
+}
+
+.pure-u-1-3, .pure-u-1 {
+	box-sizing: border-box;
+	display: block;
+}
+
+.pure-g.class-steps {
+	margin-top: 20px;
+}
+
+.pure-g .label {
+	height: 30px;
+}
+
+.pure-g .metric {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.class-steps .pure-u-1-3 {
+	text-align: center;
+}
+
+.class-steps .pure-u-1-3:nth-child(-n+2) {
+	border-right: 2px solid #EEE;
+	box-sizing: border-box;
+}
+
+.module .header {
+	top: -34px;
+	left: -5px;
+	position: relative;
+}
+
+.pure-u-1-3.module {
+	width: 31.33333%;
+}
+
+.pure-u-2-3.module {
+	width: 64.666666%;
+}
+
+
+.top-10 li {
+	padding: 5px;
+	font-size: 25px;
+	color: #888;
+	line-height: 1.5em;
+}
+

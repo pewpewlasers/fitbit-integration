@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MB FitBit</title>
+    <script src="chart.js/Chart.js"></script>
+    <script src="scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>    
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class='wrapper'>        
+
+      <div id='main-content'>   
+        <div class="pure-g wrapper-top">
+          <div class="pure-u-1-3 "><h1>FitBit Stats</h1></div>
+          <div class="pure-u-1-3"></div>
+          <div class="pure-u-1-3">
+            <form class="pure-form pure-form-stacked">
+            <!--<label for="class">Class</label>-->
+            <select id="class-picker">
+                <option>5/17/2014 Crossfit Class</option>
+                <option>5/16/2014 Inferno Class</option>                
+                <option>5/13/2014 Abs MegaWorkout</option>
+                <option>5/11/2014 Tire Flipping</option>
+                <option>5/07/2014 Inferno Class</option>
+                <option>5/06/2014 Inferno Class</option>
+                <option>5/04/2014 Inferno Class</option>
+                <option>5/01/2014 Inferno Class</option>    
+            </select>  
+          </form>            
+          </div>
+        </div>  
+
+        <div class="pure-g">
+
+          <div class="pure-u-1-2 module">
+            <span class='header'>Rank</span>
+            <div class='rank-content'>
+              <p class='rank'>1<sup><font size = "6">st</font></sup></p>
+              <p class='total-participants'>(out of 10)</p>     
+            </div>
+          </div> 
+
+          <div class="pure-u-1-2 module">
+            <span class='header'>Steps in Depth</span>
+            <div class="pure-g class-steps">
+              <div class="pure-u-1-3">
+                <span class='label'>Your steps</span> 
+                <span class='metric'>7563</span>              
+              </div>
+             
+              <div class="pure-u-1-3">
+                <span class='label'>Class Average</span> 
+                <span class='metric'>5796</span>              
+              </div>            
+        
+              <div class="pure-u-1-3">
+                  <span class='label'>Personal Best</span> 
+                  <span class='metric'>9809</span>              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1-3 module order">
+            <span class='header'>Top 10</span>
+            <ul class='top-10'>
+              <li>1. Brasky</li>
+              <li>2. Dentith</li>
+              <li>3. Hutchins</li>
+              <li>4. Sanchez</li>
+              <li>5. Koch</li>
+              <li>6. Olson</li>
+              <li>7. Schwarzenegger</li>   
+            </ul>
+          </div>          
+
+          <div class="pure-u-2-3 module">
+            <span class='header'>Rankings Visualized</span>
+            <canvas id="canvas1" height="100" width="150"></canvas>
+           <!--  <div id='ranking-graph' style="width: 93%">
+              <canvas id="canvas1" height="500" width="750"></canvas>
+            </div> -->
+          </div>   
+        </div>  
+   
+          <div class="pure-g">
+            <div class="pure-u-1 module">
+              <span class='header'>Effort Over Time (hypothetical)</span>
+              <div id='ranking-graph' style="width: 93%">
+                <canvas id="canvas2" height="500" width="750"></canvas>
+              </div>
+            </div>  
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>
+
