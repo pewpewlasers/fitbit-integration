@@ -65,11 +65,12 @@ h1 {
 
 .wrapper-top {
 	margin: 10px 0 0px;
-	padding: 10px;
+	padding: 16px 25px;
 	background-color: #f3f4f6;
-	width: 101.5%;
+	width: 960px;
 	left: -15px;
 	position: relative;
+	box-sizing: border-box;
 }
 
 p {
@@ -149,7 +150,6 @@ p {
 #class-picker {
 	float: right;
 	border-radius: 3px;
-	margin: 0 12px 0 0;
 }
 
 .class-metrics {

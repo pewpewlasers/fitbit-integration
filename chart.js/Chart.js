@@ -40,7 +40,7 @@
 			animation: true,
 
 			// Number - Number of animation steps
-			animationSteps: 60,
+			animationSteps: 100,
 
 			// String - Animation easing effect
 			animationEasing: "easeOutQuart",
@@ -59,11 +59,11 @@
 			// Number - The scale starting value
 			scaleStartValue: null,
 
-			// String - Colour of the scale line
-			scaleLineColor: "rgba(0,0,0,.1)",
+			// String - Colour of the vertical scale line
+			scaleLineColor: "rgba(0,0,0, .1)",
 
-			// Number - Pixel width of the scale line
-			scaleLineWidth: 1,
+			// Number - Pixel width of the vertical scale line
+			scaleLineWidth: 2,
 
 			// Boolean - Whether to show labels on the scale
 			scaleShowLabels: true,
@@ -78,16 +78,16 @@
 			scaleBeginAtZero: false,
 
 			// String - Scale label font declaration for the scale label
-			scaleFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+			scaleFontFamily: "'Open Sans', sans-serif;",
 
 			// Number - Scale label font size in pixels
-			scaleFontSize: 12,
+			scaleFontSize: 20,
 
 			// String - Scale label font weight style
 			scaleFontStyle: "normal",
 
 			// String - Scale label font colour
-			scaleFontColor: "#666",
+			scaleFontColor: "#555",
 
 			// Boolean - whether or not the chart should be responsive and resize when the browser does.
 			responsive: false,
